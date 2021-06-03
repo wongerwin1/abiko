@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+img{
+    width: 20%;
+}
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(139, 133, 133);
+}
+a:hover{
+    color: #000;
+}
+.banner-area{
+    position: relative;
+    background-image: url(bikocurry.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.about-area, .res-area, .menu, .contact-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+}        
+.about-area{
+    background-color: #dfdbdb;
+}
+.res-area{
+    background: url(eat.jpg), radial-gradient(#e66465, #9198e5);
+    background-blend-mode: multiply;
+    color: white;
+}
+.menu{
+    background-color: #fefefe;
+}
+
+.column {
+    float: left;
+    display: flex;
+    padding: 8px 8px 10px 8px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .pics::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.contact-area{
+    background-color: #4d4543;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: .5em 1.25em;
+    background: var(--clr-accent, rgb(245, 142, 8));
+    color: var(--clr-text, white);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .25em;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: radial-gradient(#444, #111);
+    color: #4b4c4d;
+    background: rgba(85, 81, 81, 0.658);
+  }
+  
+  .footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(7, 7, 7);
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 0;
+  }
